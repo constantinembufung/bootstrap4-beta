@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /bootstrap4-beta
+exclude: ['README.md']

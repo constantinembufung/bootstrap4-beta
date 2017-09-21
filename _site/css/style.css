@@ -1,3 +1,4 @@
+
 body {
 	background-color: #333;
 	color: #FFF;
@@ -5,5 +6,55 @@ body {
 
 .navbar {
 	border-bottom: 3px solid #008ED6 ; 
-	color: #FFF
+	color: #FFF;
+	opacity: 0.8;
+}
+#home-section{
+	background: url('../img/home.jpg') no-repeat;
+	min-height: 730px;
+	background-size: cover;
+	background-attachment: fixed;
+	}
+	.dark-overlay{
+		background: #000;
+		opacity: 0.7;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 730px;
+
+	}
+	.home-inner {
+		padding-top: 150px;
+	}
+	.caard-form {
+		opacity: 0.8;
+	}
+	.fa {
+		color: #008ED6;
+		size: 30px;
+		border-radius: 2px;
+		background: #FFF;
+		padding: 3px;
+	}
+#explore-head-section .fa{
+		color: #FFF;
+		background: #333;
+		padding:4px;
+		border-radius: 2px;
+	}
+#share-head-section .fa{
+
+}
+footer ul {
+	list-style: none;
+}
+footer ul li {
+	display: inline-block;
+}
+footer ul li a {
+	color: #FFF;
+	padding: 5px 10px;
+	text-decoration: none;
 }
